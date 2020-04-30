@@ -23,7 +23,7 @@ Extraction données de la situation du Covid-19 au Sénégal sur https://cartosa
 * [Structure_soins](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/ArcGIS/rest/services/Structure_soins/FeatureServer) (FeatureServer)
 * [Total_Cas_Afrique_et_monde](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/ArcGIS/rest/services/Total_Cas_Afrique_et_monde/FeatureServer) (FeatureServer)
 * [Total_confirmés](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/ArcGIS/rest/services/Total_confirm%c3%a9s/FeatureServer) (FeatureServer)
-* [Shape__Area](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_du_Covid_19_au_S%C3%A9n%C3%A9gal/FeatureServer/1/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-1878516.4071409777%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1252344.27142898%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
+* [Shape__Area](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_Covid19_Mise_a_jour/FeatureServer/1/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-1878516.4071409777%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1252344.27142898%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
 
 
 ## Requetes
@@ -45,13 +45,13 @@ Extraction données de la situation du Covid-19 au Sénégal sur https://cartosa
 * Photos_CS_KL
 * PPS_MSAS
 * Situation_du_Covid_19_au_Sénégal
-* [Structure_soins](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_du_Covid_19_au_S%C3%A9n%C3%A9gal/FeatureServer/0/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-1878516.4071409777%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1252344.27142898%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
+* [Structure_soins](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_Covid19_Mise_a_jour/FeatureServer/0/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-1878516.4071409777%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1252344.27142898%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
 * [Total_Cas_Afrique_et_monde](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Total_Cas_Afrique_et_monde/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&resultOffset=0&resultRecordCount=50&cacheHint=true
 )
 * [Total_confirmés](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Total_confirm%C3%A9s/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&resultOffset=0&resultRecordCount=50&cacheHint=true
 )
-* [Total_confirmés_détails](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_du_Covid_19_au_S%C3%A9n%C3%A9gal/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Cas_conf%20desc&resultOffset=0&resultRecordCount=25&cacheHint=true)
-* [Total_confirmés_détails_geo](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_du_Covid_19_au_S%C3%A9n%C3%A9gal/FeatureServer/0/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-2504688.5428529754%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1878516.4071409777%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
+* [Total_confirmés_détails](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_Covid19_Mise_a_jour/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Cas_conf%20desc&resultOffset=0&resultRecordCount=25&cacheHint=true)
+* [Total_confirmés_détails_geo](https://services7.arcgis.com/Z6qiqUaS6ImjYL5S/arcgis/rest/services/Situation_Covid19_Mise_a_jour/FeatureServer/0/query?f=json&returnGeometry=true&spatialRel=esriSpatialRelIntersects&geometry=%7B%22xmin%22%3A-2504688.5428529754%2C%22ymin%22%3A1252344.27142898%2C%22xmax%22%3A-1878516.4071409777%2C%22ymax%22%3A1878516.4071409777%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile)
 
 
 ## Comment signalez une erreur
